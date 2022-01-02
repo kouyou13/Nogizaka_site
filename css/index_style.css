@@ -1,0 +1,60 @@
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-image:url("../img/index/back10.png");
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.index_box{
+  margin: 0;
+}
+
+#quiz{
+  font-family:"遊ゴシック",sans-serif;
+  font-size:30px;
+  color: #9e50c5;
+  display: flex;
+}
+
+#quiz_text{
+  margin: 20% 0 0 40%;
+}
+
+#quiz_img{
+  text-align: center;
+}
+
+#start_game {
+  padding: 1%;
+  width:8%;
+  height:90%;
+  border-radius: 10vh;
+  background-color: #9e50c5;
+  color:white;
+}
+
+#user_name {
+  padding: 1%;
+  width:10%;
+  height: 90%;
+  border-radius: 10vh;
+}
+
+img{
+  width: 20%;
+}
+
+p{
+  margin: 0;
+}
+
+form{
+  text-align: center;
+}
