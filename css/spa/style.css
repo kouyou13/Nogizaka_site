@@ -1,0 +1,207 @@
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-image:url("../../img/index/back10.png");
+  background-size: cover;
+  /* opacity: 0.8; */
+}
+
+/* index.js */
+#title_ele {
+  padding: 20% 0 0 0;
+}
+
+#text_div {
+  text-align: center;
+}
+
+#quiz_text {
+  margin: 0 0 0 40%;
+  font-family: "遊ゴシック",sans-serif;
+  font-size: 30px;
+  color: #9e50c5;
+  display: flex;
+}
+
+#title_img {
+  width: 20%;
+}
+
+#user_name {
+  padding: 1%;
+  width: 10%;
+  height: 90%;
+  border-radius: 10vh;
+}
+
+#start_game {
+  padding: 1%;
+  width:8%;
+  height:90%;
+  border-radius: 10vh;
+  background-color: #9e50c5;
+  color:white;
+}
+
+/* quiz.js */
+/* #question_ele {
+  padding: 5% 0 0 0;
+} */
+
+#container {
+  margin: 0 10% 0 10%;
+  background-color: #FFFFFF;
+  /* font-size: 35px; */
+  border-radius: 10vh;
+  text-align: center;
+}
+
+#question_num {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  font-size: 150%;
+  padding: 1% 0 0 0;
+}
+
+#timer {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 5% 0 0;
+  font-size: 110%;
+}
+
+#question_sentence {
+  font-size: 130%;
+}
+
+#member_face_img {
+  height: 35vh;
+  border-radius: 20%;
+}
+
+#circle_img,#cross_img {
+  height: 25vh;
+  border: 3px solid #9e50c52c;
+  border-radius: 30%;
+}
+
+#circle_img{
+  margin: 0 2% 3% 0;
+}
+
+#cross_img {
+  margin: 0 0 3% 2%;
+}
+
+#modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+}
+
+#answer {
+  background-color: #ffffff;
+  width: 600px;
+  margin: 10% auto;
+  border-radius: 10vh;
+  text-align: center;
+  display: block;
+  height: 55vh;
+  padding: 1% 0 0 0;
+}
+
+#corrent_value {
+  font-size: 140%;
+}
+
+#answer_img {
+  height: 30vh;
+  border-radius: 10%;
+}
+
+#next {
+  padding: 1%;
+  width: 16%;
+  height: 5vh;
+  border-radius: 10vh;
+  background-color: #9e50c5;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 4% 42% 0 42%;
+}
+
+/* result.js */
+#result_ele {
+  background-color: #FFFFFF;
+  margin: 0 10% 0 10%;
+  border-radius: 10%;
+  /* height: 80vh; */
+  text-align: center;
+}
+
+#result_text {
+  padding: 2% 0 0 0;
+  margin: 0;
+  font-size: 130%;
+}
+
+#btn_div {
+  display: inline-flex;
+  margin: 2% 0 2% 0;
+}
+
+#retry,#finish {
+  padding: 1%;
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10vh;
+  background-color: #9e50c5;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#retry {
+  margin: 0 2% 0 0;
+}
+
+#finish {
+  margin: 0 0 0 2%;
+}
+
+table{
+  font-size:25px;
+  margin: 0 10% 0 10%;
+  width: 80%;
+}
+
+table th,
+table td {
+  border: 1px solid #bbb;
+  border-radius: 1vh;
+  /*border-bottom: 1px solid #bbb;*/
+  padding:1%;
+  width: 30%;
+}
+table th{
+  background-color:#CC66FF;
+  color:white;
+}
+table tr:nth-child(1){
+  background-color:#FFFFCC;
+  /* color:white; */
+}

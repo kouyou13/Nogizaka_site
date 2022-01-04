@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='ja'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>乃木坂サイト</title>
+    <link rel="stylesheet" href="css/spa/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- タイトル画面 -->
+    <div id="title_ele"></div>
+
+    <!-- 問題画面 -->
+    <div id="question_ele"></div>
+
+    <!-- 結果画面 -->
+    <div id="result_ele"></div>
+  </body>
+
+  <script type="module">
+    import {main} from "./js/spa/index.js";
+
+    function noScroll(event) {
+      event.preventDefault();
+    }
+
+    // スクロール禁止(スマホ端末)
+    document.addEventListener('touchmove', noScroll, { passive: false });
+    // スクロール禁止(PC)
+    document.addEventListener('mousewheel', noScroll, { passive: false });
+
+    main();
+  </script>
+</html>
