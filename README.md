@@ -1,7 +1,7 @@
 # 乃木坂サイト（非公式）
 
-PHPメイン（一部JavaScript）  
+PHPメイン（一部JavaScript使用）  
 Rink：https://web18424.azurewebsites.net/NOGIZAKA/index.php
 
-JavaScriptメイン（DB接続時PHP使用）  
+JavaScriptメイン（DB接続時のみPHP使用）  
 Rink：https://web18424.azurewebsites.net/NOGIZAKA/spa.html
